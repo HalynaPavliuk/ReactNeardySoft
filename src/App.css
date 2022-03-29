@@ -1,38 +1,110 @@
-.App {
+body {
+  background-color: rgba(76, 0, 130, 0.116);
+}
+
+.app p {
+  margin: 0;
   text-align: center;
+  font-family: fantasy;
+  font-size: 30px;
+  text-shadow: 3px 3px 5px #4b0082a6;
+  font-weight: bold;
+  padding: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.show, .postscontainer {
+  width: 40%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 3px dotted indigo;
+  padding: 30px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.show {
   display: flex;
   flex-direction: column;
+  gap: 30px;
+}
+
+.form input::placeholder {
+  color: rgba(76, 0, 130, 0.473);
+  font-family: fantasy;
+}
+
+.form button {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 25px;
+  height: 30px;
+  border: 1px solid white;
+  font-family: fantasy;
+  font-size: 16px;
+}
+
+.form button:hover, .search button:hover {
+  cursor: pointer;
+  background-color: rgba(76, 0, 130, 0.13);
+}
+
+.show a {
+  font-family: fantasy;
+  font-size: 24px;
+  color: indigo;
+  margin-top: 25px;
+}
+
+.show a:hover{
+  text-shadow: 3px 3px 5px #4b0082a6;
+  cursor: pointer;
+}
+
+.search input {
+  width: 80%;
+}
+
+.search input::placeholder {
+  color: rgba(76, 0, 130, 0.473);
+  font-family: fantasy;
+}
+
+.search button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid white;
+  margin: 15px 0;
+  box-shadow: 1px 1px 9px 8px #4b008221;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-icon {
+  font-size: 20px;
+  color: red;
+}
+
+.edit-icon {
+  font-size: 20px;
+  color: orange;
+}
+
+.postarea {
+  width: 90%;
+  margin: 10px;
 }
