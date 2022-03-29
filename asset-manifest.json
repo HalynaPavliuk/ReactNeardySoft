@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactNeardySoft/static/css/main.68b1f451.css",
+    "main.js": "/ReactNeardySoft/static/js/main.70784ac5.js",
+    "index.html": "/ReactNeardySoft/index.html",
+    "main.68b1f451.css.map": "/ReactNeardySoft/static/css/main.68b1f451.css.map",
+    "main.70784ac5.js.map": "/ReactNeardySoft/static/js/main.70784ac5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68b1f451.css",
+    "static/js/main.70784ac5.js"
+  ]
+}
